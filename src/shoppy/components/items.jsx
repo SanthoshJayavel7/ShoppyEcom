@@ -4,7 +4,7 @@ import { FaStar, FaRupeeSign } from 'react-icons/fa';
 import productData from '../productdetails'; 
 import { ShopContext } from '../context/shopcontext';
 
-export const MenItems = () => {
+export const MenItems = () => { 
   const [productList, setProductList] = useState([]);
   const { addToCart } = useContext(ShopContext);
 
